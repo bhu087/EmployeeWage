@@ -1,0 +1,13 @@
+I:\EmpWageSystem\EmployeeWageSystem\bin\Debug\netcoreapp3.1\EmployeeWageSystem.exe
+I:\EmpWageSystem\EmployeeWageSystem\bin\Debug\netcoreapp3.1\EmployeeWageSystem.deps.json
+I:\EmpWageSystem\EmployeeWageSystem\bin\Debug\netcoreapp3.1\EmployeeWageSystem.runtimeconfig.json
+I:\EmpWageSystem\EmployeeWageSystem\bin\Debug\netcoreapp3.1\EmployeeWageSystem.runtimeconfig.dev.json
+I:\EmpWageSystem\EmployeeWageSystem\bin\Debug\netcoreapp3.1\EmployeeWageSystem.dll
+I:\EmpWageSystem\EmployeeWageSystem\bin\Debug\netcoreapp3.1\EmployeeWageSystem.pdb
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.csprojAssemblyReference.cache
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.AssemblyInfoInputs.cache
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.AssemblyInfo.cs
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.csproj.CoreCompileInputs.cache
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.dll
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.pdb
+I:\EmpWageSystem\EmployeeWageSystem\obj\Debug\netcoreapp3.1\EmployeeWageSystem.genruntimeconfig.cache
