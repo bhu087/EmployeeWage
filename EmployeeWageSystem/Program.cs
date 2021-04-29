@@ -14,15 +14,19 @@ namespace EmployeeWageSystem
             Console.WriteLine("Welcome to Employee Wage Computation Program");
             Random random = new Random();
             attendence = random.Next(0,1);
-            if (attendence == IS_ATTEND)
+            switch (attendence)
             {
-                Console.WriteLine("Employee is present");
-                empHour = FULL_DAY_HOUR;
-            }
-            else
-            {
-                Console.WriteLine("Part time employee is Present");
-                empHour = PART_TIME_HOUR;
+                case IS_ATTEND:
+                    Console.WriteLine("Employee is present");
+                    empHour = FULL_DAY_HOUR;
+                    break;
+                case 1:
+                    Console.WriteLine("Part time employee is Present");
+                    empHour = PART_TIME_HOUR;
+                    break;
+                default:
+                    empHour = 0;
+                    break;
             }
             dailyWage = WAGE_PER_HOUR * empHour;
         }
