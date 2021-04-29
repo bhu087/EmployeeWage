@@ -8,12 +8,23 @@ namespace EmployeeWageSystem
         {
             const int WAGE_PER_HOUR = 20;
             const int FULL_DAY_HOUR = 8;
-            int dailyWage = 0;
-            int attendence = 0;
+            const int PART_TIME_HOUR = 4;
+            const int IS_ATTEND = 0;
+            int dailyWage = 0, attendence = 0, empHour = 0;
             Console.WriteLine("Welcome to Employee Wage Computation Program");
             Random random = new Random();
             attendence = random.Next(0,1);
-            dailyWage = WAGE_PER_HOUR * FULL_DAY_HOUR;
+            if (attendence == IS_ATTEND)
+            {
+                Console.WriteLine("Employee is present");
+                empHour = FULL_DAY_HOUR;
+            }
+            else
+            {
+                Console.WriteLine("Part time employee is Present");
+                empHour = PART_TIME_HOUR;
+            }
+            dailyWage = WAGE_PER_HOUR * empHour;
         }
     }
 }
